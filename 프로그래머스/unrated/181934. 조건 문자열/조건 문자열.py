@@ -7,5 +7,4 @@ def solution(ineq, eq, n, m):
         return 1 if n>m else 0
     elif(ineq=="<" and eq=="!"):
         return 1 if n<m else 0
-    answer = 0
-    return answer
+    #return int(eval(str(n)+ineq+eq.replace('!', '')+str(m)))
