@@ -17,3 +17,5 @@ def solution(code):
     if(len(ret)==0):
         return 'EMPTY'
     return ret
+
+    #return "".join(code.split("1"))[::2] or "EMPTY" ....?
