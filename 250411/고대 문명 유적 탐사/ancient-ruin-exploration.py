@@ -90,4 +90,4 @@ for _ in range(K):
     arr = [row[:] for row in max_arr]
     ans.append(max_num)
 
-print(' '.join(map(str, ans)))
+print(*ans)
